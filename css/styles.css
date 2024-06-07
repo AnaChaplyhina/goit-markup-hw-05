@@ -769,8 +769,9 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .comment-modal-field {
-    margin-bottom: 24px;
+    margin-bottom: 16px;
 }
+
 .modal-icon input:focus {
     fill: #4D5AE5;
 }
@@ -792,6 +793,9 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     fill: transparent;
 }
 
+.modal-field-check-input {
+    margin-bottom: 24px;
+}
 
 .modal-check:checked+.modal-check-span:checked {
     background-color: #404bbf;
