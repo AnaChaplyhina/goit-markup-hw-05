@@ -599,42 +599,38 @@
           </div>
 
           <div class="comment-modal-field">
-            <div class="comment-user-field">
-              <label for="user-comment" class="label-class">Comment</label>
-              <textarea
-                id="user-comment"
-                name="user-comment"
-                class="modal-text"
-                required
-                placeholder="Text input"
-                rows="5"
-              >
-              </textarea>
-            </div>
+            <label for="user-comment" class="label-class">Comment</label>
+            <textarea
+              id="user-comment"
+              name="user-comment"
+              class="modal-text"
+              required
+              placeholder="Text input"
+              rows="5"
+            >
+            </textarea>
           </div>
 
-          <div class="modal-field">
+          <div class="modal-field-check-input">
             <input
               type="checkbox"
               name="user-privacy"
               value="true"
               id="user-privacy"
-              class="visually-hidden"
+              class="modal check visually-hidden"
             />
             <label for="user-privacy" class="label-class"
-              >I accept the terms and conditions of the
-              <a href="" class="link-privacy">Privacy Policy</a>
-              <span class="modal-span"
-                >Privacy Policy
-                <svg
+              ><span class="modal-span"
+                ><svg
                   class="modal-icon"
                   href="./images/icons.svg#icon-Checkbox"
                   width="10"
                   height="8"
                 >
                   <use href="./images/icons.svg#icon-Checkbox"></use>
-                </svg>
-              </span>
+                </svg> </span
+              >I accept the terms and conditions of the
+              <a href="" class="link-privacy">Privacy Policy</a>
             </label>
             <button type="submit" class="final-modal-button">Send</button>
           </div>
